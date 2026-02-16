@@ -13,8 +13,18 @@
       <h2>Přidat úkol</h2>
       <form>
         <div>
-          <label> Popis úkolů</label>
-          <input>
+          <label>Předmět</label></br>
+          <select>
+            <option value="MAT">Matematika</option>
+            <option value="AJ">Anglický Jazyk</option>
+            <option value="ČJ">Český jazyk</option>
+            <option value="FYZ">Fyzika</option>
+          </select>
+        </div>
+        <div>
+          <label> Popis úkolů</label></br>
+          <input type="text" requiredmaxlenght="140"
+            placeholder="napiš popis úkolu">
         </div>
       </form>
     </section>
